@@ -70,6 +70,9 @@ hueTolerance = 6  # +/- tolerance e.g:  [angle - tolerance, angle + tolerance]
 
 
 ##### Filepaths #####
+#default config
+default_config_path = r".\calibrations\default.json"
+
 #icon
 path_icon = r".\resources\euro_coins.ico"
 

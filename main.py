@@ -277,7 +277,7 @@ def load_default(window):
     """load default calibration file."""
     window.destroy()
 
-    file = "./calibrations/default.json"
+    file = cfg.default_config_path
 
     with open(file) as f:
         data = json.load(f)
